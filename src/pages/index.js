@@ -1,13 +1,14 @@
 import React from "react"
-import Header from "../components/header"
 import Layout from "../components/layout"
+import Footer from "../components/footer"
+import PhotoGallery from "../components/gallery"
+
 
 export default function Home() {
   return (
-    <Layout style={{ color: `purple` }}>
-      <Header headerText="Hello Gatsby!" />
-      <p>What a world.</p>
-      <img src="https://source.unsplash.com/random/400x200" alt="" />
+    <Layout>
+      <PhotoGallery />
+      <Footer />
     </Layout>
   )
 }

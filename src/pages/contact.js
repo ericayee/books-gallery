@@ -9,4 +9,4 @@ export default function Contact() {
       <p>Send us a message!</p>
     </Layout>
   )
-}
+}  
