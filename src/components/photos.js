@@ -13,6 +13,10 @@ import tlog1 from "../images/The_Language_of_God_1.jpg"
 import tlog2 from "../images/The_Language_of_God_2.jpg"
 import fil1 from "../images/Frankly_in_Love_1.jpg"
 import fil2 from "../images/Frankly_in_Love_2.jpg"
+import tsiaas1 from "../images/The_Sun_is_also_a_Star_1.jpg"
+import tsiaas2 from "../images/The_Sun_is_also_a_Star_2.jpg"
+import mila1 from "../images/Mila_18_1.jpg"
+import mila2 from "../images/Mila_18_2.jpg"
 
 export const photos = [
     {
@@ -104,6 +108,30 @@ export const photos = [
       width: 1,
       height: 1,
       title: "Frankly in Love by David Yoon (2/2)",
+    },
+    {
+      src: tsiaas1,
+      width: 1,
+      height: 1,
+      title: "The Sun is Also a Star by Nicola Yoon (1/2)",
+    },
+    {
+      src: tsiaas2,
+      width: 1,
+      height: 1,
+      title: "The Sun is Also a Star by Nicola Yoon (2/2)",
+    },
+    {
+      src: mila1,
+      width: 1,
+      height: 1,
+      title: "Mila 18 by Leon Uris (1/2)",
+    },
+    {
+      src: mila2,
+      width: 1,
+      height: 1,
+      title: "Mila 18 by Leon Uris (2/2)",
     }
   ];
   
