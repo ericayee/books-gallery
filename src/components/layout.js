@@ -2,11 +2,11 @@ import React from "react"
 import { Link } from "gatsby"
 import {Helmet} from "react-helmet";
 import {favicon} from "../../static/ey.png"
-const ListLink = props => (
-  <li style={{ display: `inline-block`, marginRight: `1rem` }}>
-    <Link to={props.to}>{props.children}</Link>
-  </li>
-)
+// const ListLink = props => (
+//   <li style={{ display: `inline-block`, marginRight: `1rem` }}>
+//     <Link to={props.to}>{props.children}</Link>
+//   </li>
+// )
 
 export default function Layout({ children }) {
   return (
@@ -21,10 +21,10 @@ export default function Layout({ children }) {
         <Link to="/" style={{ textShadow: `none`, backgroundImage: `none` }}>
           <h3 style={{ display: `inline`, fontSize: `2em` }}>My book recommendations</h3>
         </Link>
-        <ul style={{ listStyle: `none`, margin: `1em 0`, fontSize: `1em` }}>
+        {/* <ul style={{ listStyle: `none`, margin: `1em 0`, fontSize: `1em` }}>
           <ListLink to="/">Gallery</ListLink>
           <ListLink to="/about/">About</ListLink>
-        </ul>
+        </ul> */}
       </header>
       {children}
     </div>
