@@ -11,11 +11,12 @@ const ListLink = props => (
 export default function Layout({ children }) {
   return (
     <div style={{ margin: `3rem auto`, maxWidth: 800, padding: `0 1rem` }}>
-      <Helmet>
-        <meta charSet="utf-8" />
-        <title>My book recommendations</title>
-        <link rel="icon" type="image/png" href={favicon} />
-      </Helmet>
+      <Helmet
+        title="My book recommendations"
+        link={[
+            { rel: 'shortcut icon', type: 'image/png', href: `${favicon}` }
+        ]}
+      />
       <header style={{ marginBottom: `1.5rem` }}>
         <Link to="/" style={{ textShadow: `none`, backgroundImage: `none` }}>
           <h3 style={{ display: `inline`, fontSize: `2em` }}>My book recommendations</h3>
