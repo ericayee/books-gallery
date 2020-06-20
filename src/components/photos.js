@@ -17,6 +17,8 @@ import tsiaas1 from "../images/The_Sun_is_also_a_Star_1.jpg"
 import tsiaas2 from "../images/The_Sun_is_also_a_Star_2.jpg"
 import mila1 from "../images/Mila_18_1.jpg"
 import mila2 from "../images/Mila_18_2.jpg"
+import je1 from "../images/Jane_Eyre_1.jpg"
+import je2 from "../images/Jane_Eyre_2.jpg"
 
 export const photos = [
     {
@@ -132,6 +134,18 @@ export const photos = [
       width: 1,
       height: 1,
       title: "Mila 18 by Leon Uris (2/2)",
+    },
+    {
+      src: je1,
+      width: 1,
+      height: 1,
+      title: "Jane Eyre by Charlotte Brontë (1/2)",
+    },
+    {
+      src: je2,
+      width: 1,
+      height: 1,
+      title: "Jane Eyre by Charlotte Brontë (2/2)",
     }
   ];
   
