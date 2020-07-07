@@ -19,6 +19,17 @@ import mila1 from "../images/Mila_18_1.jpg"
 import mila2 from "../images/Mila_18_2.jpg"
 import je1 from "../images/Jane_Eyre_1.jpg"
 import je2 from "../images/Jane_Eyre_2.jpg"
+import lt1 from "../images/Life_Together_1.jpg"
+import lt2 from "../images/Life_Together_2.jpg"
+import nlmg1 from "../images/Never_Let_Me_Go_1.jpg"
+import nlmg2 from "../images/Never_Let_Me_Go_2.jpg"
+import tglapps1 from "../images/The_Guernsey_Literary_and_Potato_Peel_Society_1.jpg"
+import tglapps2 from "../images/The_Guernsey_Literary_and_Potato_Peel_Society_2.jpg"
+import sotn1 from "../images/Star_of_the_North_1.jpg"
+import sotn2 from "../images/Star_of_the_North_2.jpg"
+import se1 from "../images/Station_Eleven_1.jpg"
+import se2 from "../images/Station_Eleven_2.jpg"
+
 
 export const photos = [
     {
@@ -146,6 +157,65 @@ export const photos = [
       width: 1,
       height: 1,
       title: "Jane Eyre by Charlotte Brontë (2/2)",
+    },
+    {
+      src: lt1,
+      width: 1,
+      height: 1,
+      title: "Life Together by Dietrich Bonhoeffer (1/2)",
+    },
+    {
+      src: lt2,
+      width: 1,
+      height: 1,
+      title: "Life Together by Dietrich Bonhoeffer (2/2)",
+    },
+    {
+      src: nlmg1,
+      width: 1,
+      height: 1,
+      title: "Never Let Me Go by Kazuo Ishiguro (1/2)",
+    },
+    {
+      src: nlmg2,
+      width: 1,
+      height: 1,
+      title: "Never Let Me Go by Kazuo Ishiguro (2/2)",
+    },
+    {
+      src: tglapps1,
+      width: 1,
+      height: 1,
+      title: "The Guernsey Literary and Potato Peel Society by Mary Ann Shaffer & Annie Barrows (1/2)",
+    },
+    {
+      src: tglapps2,
+      width: 1,
+      height: 1,
+      title: "The Guernsey Literary and Potato Peel Society by Mary Ann Shaffer & Annie Barrows (2/2)",
+    },
+    {
+      src: sotn1,
+      width: 1,
+      height: 1,
+      title: "Star of the North by D.B. John (1/2)",
+    },
+    {
+      src: sotn2,
+      width: 1,
+      height: 1,
+      title: "Star of the North by D.B. John (2/2)",
+    },
+    {
+      src: se1,
+      width: 1,
+      height: 1,
+      title: "Station Eleven by Emily St. John Mandel (1/2)",
+    },
+    {
+      src: se2,
+      width: 1,
+      height: 1,
+      title: "Station Eleven by Emily St. John Mandel (2/2)",
     }
   ];
-  
